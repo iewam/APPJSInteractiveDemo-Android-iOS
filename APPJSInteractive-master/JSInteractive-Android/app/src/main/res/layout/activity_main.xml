@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <com.github.lzyzsd.jsbridge.BridgeWebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+
+    </com.github.lzyzsd.jsbridge.BridgeWebView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/webView"
+        android:background="#33ff0000">
+
+        <TextView
+            android:id="@+id/titleTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:text="原生区域"
+            android:textColor="#ff0000"/>
+
+        <TextView
+            android:id="@+id/nativeCallJS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titleTv"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:text="NativeCallJS"
+            android:textColor="#275fce"
+            android:onClick="nativeCallJS"/>
+
+        <TextView
+            android:id="@+id/nativeCallJSWithResponse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nativeCallJS"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:text="NativeCallJSWithResponse"
+            android:textColor="#275fce"
+            android:onClick="nativeCallJSWithResponse"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

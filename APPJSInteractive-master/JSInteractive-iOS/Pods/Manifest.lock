@@ -1,0 +1,15 @@
+PODS:
+  - Masonry (1.1.0)
+  - WebViewJavascriptBridge (6.0.3)
+
+DEPENDENCIES:
+  - Masonry
+  - WebViewJavascriptBridge
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+
+PODFILE CHECKSUM: 7557356e17d97dc4669112edd7cf5f2adb2a31fa
+
+COCOAPODS: 1.4.0
